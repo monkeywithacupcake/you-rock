@@ -1,0 +1,70 @@
+body{
+    max-width: 1000px;
+    margin: 100px auto;
+    background-color: #e5e5e5;
+    background-image: url("img/triangles.jpg");
+    background-position: 20% 50%; 
+    background-attachment: fixed;
+    font-family: 'Barrio', cursive;
+}
+
+h1{
+    padding: 0.5em;
+    font-size: 2em;
+    color: #fe8f3e;
+    opacity: 0.5;
+}
+#songs {
+    padding: 0.5em;
+    font-size: 3em;
+    color: #bec1c3;
+}
+
+button{
+  padding: 0.2em;
+  background-color:#35393d;
+  color: #fe8f3e;
+  font-family: 'Barrio', cursive;   
+  font-size: 3em;
+  opacity:0.5;
+  border: none; 
+  margin-left: 0.5em;
+  position: fixed;
+  bottom: 1em;
+}
+
+button:hover{
+    background-color:#82878d;
+    color:#35393d;
+    opacity:0.5;
+    border: none; 
+}
+
+button:focus{
+    background-color:#fe8f3e;
+    color: #35393d;
+    border: none; 
+}
+
+@media screen and (max-width: 500px){
+    body{
+        margin: 20px auto;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+button {
+        position: fixed;
+        bottom: 0.4em;
+   
+    }
+    button:focus{
+        position: fixed;
+        bottom: 0.4em;
+    }
+    button:hover{
+        position: fixed;
+        bottom: 0.4em;
+    }
+}
+
+
