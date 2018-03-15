@@ -7,7 +7,6 @@ body{
     background-attachment: fixed;
     font-family: 'Barrio', cursive;
 }
-
 h1{
     padding: 0.5em;
     font-size: 2em;
@@ -19,7 +18,6 @@ h1{
     font-size: 3em;
     color: #bec1c3;
 }
-
 button{
   padding: 0.2em;
   background-color:#35393d;
@@ -32,30 +30,26 @@ button{
   position: fixed;
   bottom: 1em;
 }
-
 button:hover{
     background-color:#82878d;
     color:#35393d;
     opacity:0.5;
     border: none; 
 }
-
 button:focus{
     background-color:#fe8f3e;
     color: #35393d;
     border: none; 
 }
-
 @media screen and (max-width: 500px){
     body{
         margin: 20px auto;
         background-size: cover;
         background-attachment: fixed;
     }
-button {
+    button {
         position: fixed;
         bottom: 0.4em;
-   
     }
     button:focus{
         position: fixed;
